@@ -1,0 +1,20 @@
+.category-aktif {
+  background-color: darkslategrey;
+  color: white;
+}
+.btn-primary {
+  background-color: darkslategray;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 430px;
+  }
+  .menu {
+    height: 540px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
